@@ -62,10 +62,6 @@ Our final solution follows **three main steps:**
 - **M = Number of log entries on the requested date**  
 
 ---
-
-## 🛠 **How to Run the Script?**  
-### **🔹 Step 1: Download the Log File**
-
 ###Project Structure
 /log-extractor
 │── src/
@@ -90,3 +86,9 @@ Our final solution follows **three main steps:**
    - Doesn't store unnecessary logs in memory—everything is processed **line by line**.  
 
 🚀 **With this approach, extracting logs for a specific date takes only a few seconds, even from a 1TB file!**  
+
+## 🛠 **How to Run the Script?**  
+### **🔹 Step 1: Download the Log File**
+```bash
+curl -L -o test_logs.log "https://limewire.com/d/90794bb3-6831-4e02-8a59-ffc7f3b8b2a3#X1xnzrH5s4H_DKEkT_dfBuUT1mFKZuj4cFWNoMJGX98"
+
